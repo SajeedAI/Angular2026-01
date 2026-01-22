@@ -1,0 +1,31 @@
+Step 1: Install Node js
+        Angular need Node js
+        open terminal and check if node is already installed or not
+        > node -v
+        > npm -v
+
+Step 2: Install Anglular CLI (global)
+        Create and Run Projects:
+                > npm install -g @angular/cli
+        verify:
+                > ng version
+            
+Strp 3: Create Angular Project
+        > ng new hello-world
+        > cd hello-world
+
+
+Step 4: Run Angular Application
+        > ng serve
+        
+        if port conflict
+        > ng serve --port 4201
+
+Step 5: Open in Browser
+        http://localhost:4000
+
+Basic Project Set up
+
+    
+
+

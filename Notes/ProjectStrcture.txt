@@ -1,0 +1,101 @@
+1) Project Root Folder (hello-world)
+   This is the main angular project folder
+
+   when we run:
+               > ng new hello-world
+   Angular CLI Creates this structure automatically
+
+2) .angular/
+   Internal Angular CLI folder
+   Strores build cache & metadata
+   Never touch or modify 
+   Used only by Angular internally
+
+3) .vscode/
+   VS code editor settings
+   Stores extentions, formatting rules, debgger configs
+   Optional folder
+   if you delete it -> project still works
+
+4) node_modules
+   contains all npm packages 
+   Angular, Rxjs, Typescript, zone.js etc...
+   Created when we run 
+                      > npm install
+
+5) public.
+   favicon.co
+   website icon shown in browser tab
+   you can replace it with your own company logo
+
+6) src/index.html
+   <app-root></app-root>
+   This is the Single HTML page
+   Angular is a Single Page Application (SPA)
+   Angular loads everything inside the <app-root>
+
+7) src/main.js
+   Entry point of the Angular app
+   Starts the Angular Application
+
+8) src/styles.css
+   Global CSS
+   Applies to the entire application
+
+9) src/app/ (core component)
+   This folder contain the App component
+   app.ts
+   Main Component Logic
+   Written in typescript
+   Controls data & behaviour
+   code: title = 'Hello World'
+
+   app.html
+   Component UI/View
+   Written in HTML
+   Displays data from app.ts
+   code: <h1> {{ title }} </h1>
+  
+   app.css
+   Component specific styles
+   only applies to app.html
+
+   app.spec.ts
+   Used for unit testing
+   Not required for begginers
+   Used by testers
+
+   app.route.ts
+   used for routing
+   control page navigation
+
+   app.config.ts
+   Angular standalone configuration
+   Registers routes, providers etc...
+
+10) Congiguration files
+    angular.json
+    Angular project settings
+
+    package.json
+    Project dependencies
+
+    package-lock.json
+    Looks exact dependency version
+    Auto-genearted
+
+    tsconfig.json
+    TypeScript compiler settings
+
+    tsconfig.app.json
+    App-Specific TS settings
+
+    tsconfig.spec.json
+    Test specific TS settings
+
+    .gitignore
+    Files ignored by Git
+    
+
+Eg: Propject: (StudentsAdmissions - Tutions (1 to 6th Class))
+> StudentsAdmissions (c1, c2, c3, c4, c5 ...)
