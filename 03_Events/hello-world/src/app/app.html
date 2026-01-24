@@ -1,0 +1,19 @@
+<h2>Interploation</h2>
+<h4>Name: {{name}}</h4>
+<h4>Age: {{age}}</h4>
+
+<p>Total: {{100+50}}</p>
+<p>Age: {{age + 1}}</p>
+
+<h2>Property Binding</h2>
+<img [src]="imageUrl" alt="image" width="500px">
+<br><br>
+<button [disabled]="isDisabled">Click Me</button>
+
+<h2>Event Binding</h2>
+<p>{{message}}</p>
+<button (click)="showMessage()">Click Me</button>
+
+<h2>Two way Binding</h2>
+<input type="text" [(ngModel)]="username" placeholder="Enter name">
+<p>You entered: {{ username }}</p>
